@@ -1,0 +1,153 @@
+body {
+  background-color: #dfdfdf;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+a img {
+  border: none;
+}
+
+#wrap {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 900px;
+  background-image: url("wrap-bg.png");
+  padding-top: 10px;
+  z-index: 1;
+}
+
+#rightSide {
+  height: 910px;
+  width: 40%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  background-image: url("body-bg.png");
+}
+
+.name {
+  font-size: 200%;
+  color: #4f4f4f;
+}
+
+a#ig_link {
+  text-decoration: none;
+}
+a#ig_link span {
+  /* text-decoration: underline; */
+}
+
+.description {
+  margin-left: 0px !important;
+}
+
+#description:hover {
+  background-color: #5f1d57;
+  color: white;
+}
+
+.button {
+  background-color: #4f4f4f;
+  color: #dfdfdf;
+  letter-spacing: 3px;
+  float: left;
+  margin-left: 15px;
+  padding: 6px 4px 1px 4px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #5f1d57;
+  color: white;
+}
+
+#thumbMagnifier {
+  float: right;
+  margin-top: -15px;
+  margin-top: 13px;
+  width: 160px;
+  z-index: 3;
+}
+
+#thumbMagnifier img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: #2f2f2f 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+/* remove this is you turn magnifier on */
+#thumbMagnifier img:hover {
+  border: 1px solid #dfdfdf;
+}
+
+#imageWrap {
+  float: left;
+  margin-top: 1px;
+}
+
+#bigImg {
+  margin-top: 15px;
+  border: 1px #2f2f2f solid;
+}
+
+#footer {
+  float: left;
+  margin-top: 20px;
+  font-size: 80%;
+  color: #2f2f2f;
+  margin-left: 1px;
+}
+
+.more {
+  float: right;
+  width: 122px;
+  margin-top: 8px;
+  background-color: #4f4f4f;
+  color: #dfdfdf;
+  text-align: center;
+  border: #2f2f2f 1px solid;
+}
+
+.maintext {
+  width: 580px;
+  height: auto;
+  background-color: #efefef;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 6px !important;
+}
+
+#caption {
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+
+.notVisible {
+  display: none;
+}
+
+#loader {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45%;
+  display: none;
+  font-size: 85%;
+  color: #2f2f2f;
+}
+
+.loading {
+  zbackground-image: url("loading.gif");
+  width: 550px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
