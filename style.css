@@ -37,6 +37,10 @@ a img {
 a#ig_link {
   text-decoration: none;
 }
+a#ig_link strong {
+  font-size: 200%;
+  font-weight: normal;
+}
 a#ig_link span {
   /* text-decoration: underline; */
 }
